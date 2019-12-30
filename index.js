@@ -17,8 +17,9 @@ function findAllPermutations(str){
         let charsRem = str.substring(0,i) + str.substring(i+1);
         let permsOfRem = findAllPermutations(charsRem);
         let letter;
-        permsOfRem.forEach(letter => perms.push(currentChar + letter))
-
+        permsOfRem.forEach(function(letter){ 
+          perms.push(currentChar + letter)
+        })
        }
 
     }
