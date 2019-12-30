@@ -21,7 +21,6 @@ function findAllPermutations(str){
           perms.push(currentChar + letter)
         })
        }
-
     }
       console.log(perms);
       return perms;
