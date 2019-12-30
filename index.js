@@ -20,8 +20,8 @@ function findAllPermutations(str){
         permsOfRem.forEach(letter =>
           perms.push(currentChar + letter);
         ){
-      }
-    }
+
+
     }
       console.log(perms);
       return perms;
