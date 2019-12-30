@@ -22,6 +22,7 @@ function findAllPermutations(str){
         ){
       }
     }
+    }
       console.log(perms);
       return perms;
 }
